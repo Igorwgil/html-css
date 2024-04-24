@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou siplesmente aumente e diminua o tamanho so seu navagador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/image-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/image-m.png" type="image/png">
+        <img src="imagens/image-g.png" alt="imagem tamanho g"> 
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduxir áudios em HTML5.</p>
+    <p>Esta a forma mais simples que pode dar errado:</p>
+    <!--Maneira mais simples-->
+    <audio src="medias/passed-riot.mp3" controls autopla-y></audio><!--Não funciona-->
+    <p>Os navegadores são compatíveis com os formatos MP3(mpeg), OGG e WAV.</p>
+    <!--Maneira mais eficiênte-->
+    <p>Esta é a forma mais eficiente:</p>
+
+    
+
+    <!--verificar os links para dowload do arquivo de audio e adcionar os parâmetros-->
+
+
+    <audio preload="auto" controls>
+        <source src="medias/guanacast-33.mp3" type="audio/mpeg">
+        <source src="medias/guanacast-33.ogg" type="audio/ogg">
+        <source src="medias/guanacast-33.ogg" type="audio/wav">
+        <p>Não foi possível carregar o arquivo de áudio.<a href="medias/guanacast-33.mp3" download="guanacast-33">Faça o dowload do arquivo</a></p>
+    </audio>
+</body>
+</html>

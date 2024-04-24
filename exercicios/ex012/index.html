@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video controls autoplay loop poster="images/tumb-350.jpg" width="400px">
+        <source src="medias/meu-video-webm.webm" type="video/webm">
+        <source src="medias/meu-video-mp4.mp4" type="video/mp4">
+        <source src="medias/meu-video-ogv.ogv" type="video/ogg">
+        Infelimente seu navegador não suporta reprodução de vídeo
+    </video>
+    <h1>Incorporando vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bUPLo4M1O-o?si=hHeZDjAnpMMlwWi3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Incorporando Vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/899678004?h=6fd28fae08&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

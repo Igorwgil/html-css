@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(223, 223, 223);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 13px;
+}
+header > h1{
+    margin: 10px;
+    text-align: center;
+}
+nav{
+    width: 190px;
+    background-color: rgb(138, 25, 25);
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px 0px rgba(82, 14, 14, 0.274);
+}
+nav > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+article{
+    background-color: rgb(223, 223, 250);
+    text-align: justify;
+    padding: 10px 0px 0px 0px;
+}
+article > aside{
+    font-size: small;
+    font-style: italic;
+    background-color: rgb(186, 186, 206);
+}
+article > aside > p{
+    padding: 3px 3px 3px 10px;
+}
+main{
+    background-color: white;
+    margin: 10px 10px 5px 10px;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 6px;
+}
+footer > p{
+    margin: 0px;
+}
+#prim-ass{
+    padding: 0px 0px 0px 20px;
+}
+#prim-tex{
+    padding: 10px;
+    text-indent: 30px;
+}

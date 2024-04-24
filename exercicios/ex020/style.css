@@ -1,0 +1,38 @@
+div{
+    display: inline-block;
+    background-color: rgb(200, 152, 245);
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}div:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+div#primeira-div{
+    background-color: aqua;
+}
+div#segunda-div{
+    background-color: rgb(224, 96, 96);
+}
+div#terceira-div{
+    background-color: rgb(75, 160, 75);
+}
+*/

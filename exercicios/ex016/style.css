@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+/*Parei criando o box-shadow*/
+
+body{
+    background-image: linear-gradient(45deg, #262626, #4A4A4A);
+}
+main{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.562);
+}
+H1{
+    color: #540054;
+}
+h2{
+    color:#002F4F;
+}
+p{
+    text-align: justify;
+}
