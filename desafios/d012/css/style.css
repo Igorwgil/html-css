@@ -52,10 +52,15 @@ section{
     font-weight: bold;
 }
 
+section > p{
+    padding-top: 1.4em;
+}
+
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.39);
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
+    text-shadow: rgba(0, 0, 0, 0.308) 1px 1px 1px;
 }
 
 section.normal{
@@ -66,8 +71,22 @@ section.normal{
 section.imagem{
     background-color: rgb(19, 19, 19); 
     color: white;
+    box-shadow: inset #00000036 6px 6px 10px 0px;
 }
 
+section#img01{
+    background-image: url('/desafios/d012/imagens/background001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+section#img02{
+    background: rgb(219, 202, 101) url('/desafios/d012/imagens/background002.jpg')  no-repeat fixed right center;
+    background-size: cover;
+    
+}
 
 
 
