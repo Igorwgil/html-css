@@ -84,8 +84,7 @@ section#img01{
 
 section#img02{
     background: rgb(219, 202, 101) url('/desafios/d012/imagens/background002.jpg')  no-repeat fixed right center;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
 

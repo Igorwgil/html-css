@@ -1,3 +1,11 @@
 table{
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+}
+td{
     border: 1px solid black;
+    font-size: 2em;
+    text-align: right;
+    vertical-align: bottom;
 }
