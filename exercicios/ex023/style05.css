@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#nome{
+    background-color: rgb(112, 255, 96);
+}
+
+#sexo{
+    background-color: rgb(178, 0, 0);
+}
+
+#idade{
+    background-color: darkblue;
+}
