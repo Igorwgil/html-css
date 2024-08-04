@@ -1,11 +1,12 @@
 table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+    width: 90%;
 }
 
 th, td{
     border: 1px solid black;
-    padding:  5px 10px;
+    padding: 5px 10px;
 }
 
 .cor{
@@ -20,8 +21,4 @@ th, td{
 
 .media{
     text-align: left;
-}
-
-td:not(:first-child){
-    text-align: center;
 }
