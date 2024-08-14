@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframes</title>
+    <style>
+
+        iframe{
+            display: block;
+            margin: auto;
+            width: 50%;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro nemo architecto esse excepturi labore facilis nam nisi, aliquam, tempora adipisci autem ad ex laborum expedita aliquid minima dolorum obcaecati mollitia?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina01.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pagina02.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pagina03.html" target="frame">Teceira Página</a></li>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia praesentium cumque assumenda expedita minus sint. Nam maxime illo, libero pariatur ducimus, inventore corrupti minus sunt laudantium ea necessitatibus modi laboriosam?</p>
+
+    <iframe src="" name="frame">
+        <p>Seu navegador não suporta essa aplicação</p>
+    </iframe>
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vel, laudantium dolorem accusantium eaque amet neque rem molestiae inventore, molestias, quam debitis perferendis nesciunt? Consequuntur, dolorum earum. Impedit, ab non!</p>
+
+    <script>
+        //1)  
+        var posicaoScroll = $(document).scrollTop();
+        $(document).scrollTop(posicaoScroll);
+
+        //2) "cart-table__product" é a classe a minha lista de produtos no carrinho
+        $(document).ready(function() {
+            $('.cart-table__product').attr({scrollTop: $('.cart-table__product').attr('scrollHeight')});
+        });
+
+        //3)
+        function scroll() {
+            var objScrDiv = document.getElementsByClassName("cart-table__product");
+            objScrDiv.scrollTop = objScrDiv.scrollHeight;
+        }
+    </script>
+
+</body>
+</html>
