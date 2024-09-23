@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <p>
+            <label for="inum1">N1:</label>
+            <input type="number" name="num1" id="inum1" required oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)"><br><br>
+            <label for="inum2">N2:</label>
+            <input type="number" name="num2" id="inum2" required oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+        
+    </form>
+</body>
+</html>

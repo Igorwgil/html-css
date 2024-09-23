@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <p>
+            <label for="iescala">Número: </label>
+            <input type="range" name="escala" id="iesc" value="5" min="0" max="10" oninput="iran.innerHTML = Number(iesc.value)">
+            <output id="iran">5</output>
+        </p>
+    </form>
+</body>
+</html>
